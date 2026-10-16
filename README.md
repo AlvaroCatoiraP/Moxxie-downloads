@@ -25,7 +25,9 @@ Les livres indexés, fiches, souvenirs et résultats sont conservés dans `%LOCA
 
 La restauration présente le contenu et sauvegarde l’état courant avant remplacement ; elle accepte aussi les anciennes bases `.db`/`.sqlite`. Une base seule ne contient pas les PDF. Les nouveaux imports conservent leurs originaux ; réimporter le même fichier le rattache sans doublon.
 
-La version 0.4.0 ajoute une bibliothèque filtrable, les sources du dernier échange et la progression par thème. La recherche par sens nécessite un modèle local déjà installé et une indexation explicite. L’OCR nécessite Poppler et Tesseract, installés séparément. L’avatar se choisit dans les outils locaux des réglages.
+La version 0.4.2 corrige les citations refusées en lecture et réapplique le GPU choisi au démarrage. **Passages à reprendre** détaille les échecs ; les réglages GPU affichent un diagnostic du serveur et de la mémoire réellement allouée. Les nouvelles réponses du chat affichent leur durée depuis 0.4.1.
+
+Depuis 0.4.0 : bibliothèque filtrable, sources du dernier échange et progression par thème. La recherche par sens nécessite un modèle local déjà installé et une indexation explicite. L’OCR nécessite Poppler et Tesseract, installés séparément. L’avatar se choisit dans les outils locaux des réglages.
 
 Si vous utilisiez une ancienne version en dossier, ouvrez **Réglages → Récupérer une ancienne installation** sur une nouvelle installation vide et choisissez son fichier `data\memory\moxxie.db`. L’ancienne base est copiée et reste intacte. Une bibliothèque existante ne peut pas être écrasée par cet import. Les PDF originaux restent à leur emplacement.
 
