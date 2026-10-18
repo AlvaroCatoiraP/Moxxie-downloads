@@ -1,6 +1,6 @@
 # superMoxxie — Téléchargements Windows
 
-La version 0.6.1 conserve l'interface 0.6.0 et ajoute les modes Libre/Documentaire et Internet facultatif. La version disponible reste celle indiquée dans la Release officielle ; un changement des sources ne met pas automatiquement à jour l'application installée.
+La version 0.6.2 conserve l'interface 0.6.0 et ajoute Wikipédia gratuit en français, sans compte ni clé API. Les modes se choisissent avec /libre et /documentaire ; le bouton Wikipédia autorise les recherches encyclopédiques. Les introductions d’articles sont citées avec leurs liens. Ce service ne remplace pas la recherche de météo, de prix ou d’actualités en direct.
 
 Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama local ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
 
