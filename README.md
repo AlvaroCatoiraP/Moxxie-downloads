@@ -1,12 +1,16 @@
 # superMoxxie — Téléchargements Windows
 
-Assistant personnel avec Chat, École et Université. Le même chat peut utiliser Ollama local ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
+Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama local ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
 
 **[Télécharger superMoxxie pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)**
 
 Windows 10/11 64 bits. Python est inclus. Le nom technique Moxxie-Setup.exe et le dossier Moxxie sont conservés pour mettre à jour les installations existantes.
 
 ## Démarrer
+
+La version **0.6.0** réorganise l’interface : bibliothèque intégrée, prochaine étape proposée dans École, questions et corrections séparées dans Université. Les réglages sont regroupés dans **Apparence**, **Connexions**, **Données** et **Application**.
+
+Un compagnon animé reste au bord droit de l’écran. **Réglages → Apparence** permet de modifier sa taille, sa visibilité et la pause. La croix masque la fenêtre quand le compagnon est actif ; son menu de clic droit ou **Réglages → Application** permet de quitter complètement.
 
 Installer puis ouvrir Moxxie : la fenêtre affiche superMoxxie. Pour le mode local, préparer Ollama depuis Réglages. Pour l’abonnement ChatGPT, ouvrir **Compte ChatGPT → Continue with ChatGPT**, se connecter dans le navigateur et choisir un modèle disponible.
 
@@ -20,7 +24,7 @@ Université conserve son correcteur avec clé API distincte et facturation API p
 
 ## Mettre à jour
 
-Ouvrir **Vérifier les mises à jour → Faire la mise à jour** : téléchargement, vérification SHA-256, sauvegarde du profil, fermeture, installation silencieuse et relancement. Fermer les autres fenêtres Moxxie. Un téléchargement invalide bloque l’installation. Une panne pendant l’installation ne dispose pas encore d’un retour automatique à la version précédente.
+Dans la version 0.6.0, ouvrir **Réglages → Application → Vérifier les mises à jour**, puis **Faire la mise à jour**. Dans la version 0.5.0, le bouton reste dans le menu de gauche. La mise à jour effectue le téléchargement, la vérification SHA-256, la sauvegarde du profil, la fermeture, l’installation silencieuse et le relancement. Quitter complètement les autres fenêtres Moxxie avant de continuer. Un téléchargement invalide bloque l’installation. Une panne pendant l’installation ne dispose pas encore d’un retour automatique à la version précédente.
 
 Les anciennes versions demandent encore de lancer une première fois l’installateur téléchargé. Une fois 0.5.0 installée, les mises à jour suivantes pourront utiliser le nouveau bouton.
 
