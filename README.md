@@ -1,8 +1,8 @@
 # superMoxxie — Téléchargements Windows
 
-La version **0.6.4** harmonise les onglets des réglages avec le thème sombre : sélection lavande, hauteur uniforme et navigation au clavier. Elle inclut les corrections de mémoire de la 0.6.3 : enregistrement local explicite, rappel direct du prénom et préférences de longueur conservées après redémarrage. Les quatre espaces, le compagnon et Wikipédia gratuit sont conservés.
+La version **0.6.5** ajoute le choix **Serveur local avancé** dans le chat. Il connecte Moxxie à un moteur local comme vLLM ou SGLang, avec des exemples MiMo, GLM et Kimi. Le moteur et les poids du modèle doivent être installés séparément ; aucun grand modèle n’est téléchargé automatiquement. La mémoire personnelle, les onglets sombres, les quatre espaces et le compagnon sont conservés.
 
-Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama local ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
+Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama, un serveur local avancé ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
 
 **[Télécharger superMoxxie pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)**
 
@@ -41,3 +41,9 @@ Les livres, souvenirs et résultats restent dans `%LOCALAPPDATA%\Moxxie\data`, s
 - Télécharger uniquement depuis les Releases de ce dépôt. Chaque installateur est accompagné de SHA256SUMS.txt.
 
 Ce dépôt contient les téléchargements publics et leur documentation. Le code de développement reste privé.
+
+## Serveur local avancé
+
+Choisir **Serveur local avancé** dans le chat, ou ouvrir **Réglages → Connexions → Options avancées**. Renseigner l’adresse locale (par exemple `http://127.0.0.1:8000/v1`), tester la liste des modèles puis sélectionner le modèle réellement chargé et enregistrer. Les noms proposés sont des exemples, pas des modèles inclus dans l’installateur.
+
+Le serveur doit exécuter les poids sur votre propre matériel. Le chat utilise uniquement une adresse de boucle locale, sans basculement automatique vers une API en ligne. Désactiver Wikipédia pour ne pas lancer de recherches en ligne facultatives. École et l’élève d’Université conservent leur moteur Ollama existant.
