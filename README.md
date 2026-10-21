@@ -1,6 +1,6 @@
 # superMoxxie — Téléchargements Windows
 
-La version 0.6.2 conserve l'interface 0.6.0 et ajoute Wikipédia gratuit en français, sans compte ni clé API. Les modes se choisissent avec /libre et /documentaire ; le bouton Wikipédia autorise les recherches encyclopédiques. Les introductions d’articles sont citées avec leurs liens. Ce service ne remplace pas la recherche de météo, de prix ou d’actualités en direct.
+La version **0.6.3** améliore la mémoire personnelle : « Retiens que… » enregistre localement avec confirmation, le prénom est rappelé directement et les préférences de réponses courtes ou détaillées sont conservées après redémarrage. Elle corrige aussi la recherche des souvenirs anciens et renforce le repli documentaire. L’interface à quatre espaces, le compagnon et Wikipédia gratuit sont conservés.
 
 Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama local ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
 
@@ -18,7 +18,7 @@ Installer puis ouvrir Moxxie : la fenêtre affiche superMoxxie. Pour le mode loc
 
 L’accès dépend du compte, du forfait et de l’autorisation accordée à cette application. Il n’est pas garanti pour tous les comptes ou applications privées ; la connexion réelle reste à vérifier par l’utilisateur.
 
-Un aperçu précède chaque envoi connecté : message, contexte récent, personnalité et souvenirs utiles sont transmis à OpenAI. Aucun livre n’est recherché automatiquement dans ce mode. Aucune API payante de secours n’est utilisée. La connexion ne donne pas accès aux conversations ou à la mémoire du site ChatGPT. Les conditions de traitement côté service doivent être vérifiées pour la voie d’accès et le compte concernés ; store=false ne garantit pas une conservation nulle.
+Un aperçu précède chaque envoi connecté : message, contexte récent, personnalité et souvenirs utiles sont transmis à OpenAI. Les sources locales peuvent être fournies en mode documentaire. Les demandes explicites de mémorisation et les rappels simples du prénom sont traités localement, sans envoi au modèle. Aucune API payante de secours n’est utilisée. La connexion ne donne pas accès aux conversations ou à la mémoire du site ChatGPT. Les conditions de traitement côté service doivent être vérifiées pour la voie d’accès et le compte concernés ; store=false ne garantit pas une conservation nulle.
 
 Le contexte courant est conservé au changement de moteur. **Historique → Reprendre les échanges récents dans le chat** recharge les derniers échanges. La mémoire exploite les messages de l’utilisateur ; les réponses du modèle ne deviennent pas automatiquement des connaissances validées et ne réentraînent pas Ollama.
 
