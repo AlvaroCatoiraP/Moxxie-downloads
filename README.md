@@ -1,6 +1,6 @@
 # superMoxxie — Téléchargements Windows
 
-La version **0.6.3** améliore la mémoire personnelle : « Retiens que… » enregistre localement avec confirmation, le prénom est rappelé directement et les préférences de réponses courtes ou détaillées sont conservées après redémarrage. Elle corrige aussi la recherche des souvenirs anciens et renforce le repli documentaire. L’interface à quatre espaces, le compagnon et Wikipédia gratuit sont conservés.
+La version **0.6.4** harmonise les onglets des réglages avec le thème sombre : sélection lavande, hauteur uniforme et navigation au clavier. Elle inclut les corrections de mémoire de la 0.6.3 : enregistrement local explicite, rappel direct du prénom et préférences de longueur conservées après redémarrage. Les quatre espaces, le compagnon et Wikipédia gratuit sont conservés.
 
 Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama local ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
 
