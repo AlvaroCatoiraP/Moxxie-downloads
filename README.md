@@ -1,6 +1,6 @@
 # superMoxxie — Téléchargements Windows
 
-La version **0.6.5** ajoute le choix **Serveur local avancé** dans le chat. Il connecte Moxxie à un moteur local comme vLLM ou SGLang, avec des exemples MiMo, GLM et Kimi. Le moteur et les poids du modèle doivent être installés séparément ; aucun grand modèle n’est téléchargé automatiquement. La mémoire personnelle, les onglets sombres, les quatre espaces et le compagnon sont conservés.
+La version **0.6.6** rend le compagnon plus vivant : salut continu, respiration, danse, étirement et micro-sieste. Dans le chat, **Entrée envoie** et **Ctrl+Entrée ou Maj+Entrée ajoute une ligne**. Un clic droit sur les échanges permet de copier la sélection ou toute la conversation. Les souvenirs, les quatre espaces et les connexions locales existantes sont conservés.
 
 Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama, un serveur local avancé ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
 
