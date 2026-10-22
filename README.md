@@ -1,49 +1,40 @@
 # superMoxxie — Téléchargements Windows
 
-La version **0.6.6** rend le compagnon plus vivant : salut continu, respiration, danse, étirement et micro-sieste. Dans le chat, **Entrée envoie** et **Ctrl+Entrée ou Maj+Entrée ajoute une ligne**. Un clic droit sur les échanges permet de copier la sélection ou toute la conversation. Les souvenirs, les quatre espaces et les connexions locales existantes sont conservés.
+Version **0.7.0** : assistant personnel avec quatre espaces, **Chat**, **Bibliothèque**, **École** et **Université**, et compagnon animé.
 
-Assistant personnel avec quatre espaces : **Chat**, **Bibliothèque**, **École** et **Université**. Le même chat peut utiliser Ollama, un serveur local avancé ou un abonnement ChatGPT autorisé, avec la personnalité de Moxxie et un historique local.
+**[Télécharger pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)** · **[Manuel HTML complet](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Documentation.html)**
 
-**[Télécharger superMoxxie pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)**
+Windows 10/11 64 bits ; Python inclus. Installer ou mettre à jour au même emplacement conserve le profil, les souvenirs et les livres dans `%LOCALAPPDATA%\Moxxie\data`. Une sauvegarde externe reste recommandée.
 
-Windows 10/11 64 bits. Python est inclus. Le nom technique Moxxie-Setup.exe et le dossier Moxxie sont conservés pour mettre à jour les installations existantes.
+## Nouveautés
 
-## Démarrer
+- Ajout manuel de souvenirs, dont un souvenir par ligne, avec contrôle des doublons.
+- Discussions séparées, historique consultable, brouillons automatiques et saisie pendant une réponse.
+- Modification de la dernière question et relance dans une nouvelle discussion.
+- Sources cliquables et conservation des références avec la discussion.
+- Recherche globale dans les discussions, souvenirs, livres et leçons.
+- Import multiple de documents, dépôt de fichiers Windows et bilan par fichier.
+- Fiches et quiz locaux depuis les livres, révisions espacées selon les erreurs.
+- Corrections proposées, puis réutilisées seulement après validation explicite.
+- Export des discussions en PDF et texte.
+- Panneaux chargés à la demande, taille du texte et contraste réglables, raccourcis clavier.
+- Sauvegardes programmables pendant l’ouverture ; menu du compagnon enrichi.
+- Dictée et lecture Windows, ou service vocal en ligne choisi explicitement avec clé API distincte.
+- Proposition automatique des nouvelles versions, installation choisie ou rappel le lendemain.
+- Manuel HTML autonome : 27 chapitres, plus de 11 000 mots, recherche, thème et impression.
 
-La version **0.6.0** réorganise l’interface : bibliothèque intégrée, prochaine étape proposée dans École, questions et corrections séparées dans Université. Les réglages sont regroupés dans **Apparence**, **Connexions**, **Données** et **Application**.
+Windows 10/11 64 bits. Les livres et le profil restent séparés du programme. Une sauvegarde précède la migration du profil. Quitter les autres instances avant installation.
 
-Un compagnon animé reste au bord droit de l’écran. **Réglages → Apparence** permet de modifier sa taille, sa visibilité et la pause. La croix masque la fenêtre quand le compagnon est actif ; son menu de clic droit ou **Réglages → Application** permet de quitter complètement.
+Validation : 261 tests automatisés réussis et contrôle de l’interface sur un profil temporaire. Les appels vocaux distants sont simulés : le fonctionnement réel dépend des composants Windows, du microphone et du compte API. Aucun livre personnel ni identifiant n’est distribué.
 
-Installer puis ouvrir Moxxie : la fenêtre affiche superMoxxie. Pour le mode local, préparer Ollama depuis Réglages. Pour l’abonnement ChatGPT, ouvrir **Compte ChatGPT → Continue with ChatGPT**, se connecter dans le navigateur et choisir un modèle disponible.
+Télécharger Moxxie-Setup.exe pour installer ou mettre à jour, et Moxxie-Documentation.html pour consulter le manuel sans installation. SHA256SUMS.txt contient les empreintes des deux fichiers.
 
-L’accès dépend du compte, du forfait et de l’autorisation accordée à cette application. Il n’est pas garanti pour tous les comptes ou applications privées ; la connexion réelle reste à vérifier par l’utilisateur.
+## Utiliser Moxxie
 
-Un aperçu précède chaque envoi connecté : message, contexte récent, personnalité et souvenirs utiles sont transmis à OpenAI. Les sources locales peuvent être fournies en mode documentaire. Les demandes explicites de mémorisation et les rappels simples du prénom sont traités localement, sans envoi au modèle. Aucune API payante de secours n’est utilisée. La connexion ne donne pas accès aux conversations ou à la mémoire du site ChatGPT. Les conditions de traitement côté service doivent être vérifiées pour la voie d’accès et le compte concernés ; store=false ne garantit pas une conservation nulle.
+Le chat peut utiliser Ollama ou un serveur local compatible. Les connexions à des services externes dépendent de leurs droits et comptes. Les fonctions de voix en ligne et le correcteur d’Université nécessitent une clé API distincte et peuvent être facturés par le service ; aucun appel vocal n’est envoyé sans choix explicite.
 
-Le contexte courant est conservé au changement de moteur. **Historique → Reprendre les échanges récents dans le chat** recharge les derniers échanges. La mémoire exploite les messages de l’utilisateur ; les réponses du modèle ne deviennent pas automatiquement des connaissances validées et ne réentraînent pas Ollama.
+Dans la version 0.7.0, les nouvelles versions sont proposées automatiquement. Choisir **Installer maintenant** ou reporter de 24 heures. Les versions précédentes peuvent ouvrir **Réglages → Application → Vérifier les mises à jour**, ou télécharger l’installateur ci-dessus. La mise à jour vérifie l’empreinte SHA-256, sauvegarde, installe puis relance. Un retour automatique après panne d’installation n’est pas encore disponible.
 
-Université conserve son correcteur avec clé API distincte et facturation API possible, uniquement sur demande. Ce correcteur ne sert pas de moteur de secours au chat.
+Le manuel HTML fonctionne hors ligne, avec recherche et impression. Il est aussi accessible dans **Outils → Documentation détaillée** et par **F1**.
 
-## Mettre à jour
-
-Dans la version 0.6.0, ouvrir **Réglages → Application → Vérifier les mises à jour**, puis **Faire la mise à jour**. Dans la version 0.5.0, le bouton reste dans le menu de gauche. La mise à jour effectue le téléchargement, la vérification SHA-256, la sauvegarde du profil, la fermeture, l’installation silencieuse et le relancement. Quitter complètement les autres fenêtres Moxxie avant de continuer. Un téléchargement invalide bloque l’installation. Une panne pendant l’installation ne dispose pas encore d’un retour automatique à la version précédente.
-
-Les anciennes versions demandent encore de lancer une première fois l’installateur téléchargé. Une fois 0.5.0 installée, les mises à jour suivantes pourront utiliser le nouveau bouton.
-
-Les livres, souvenirs et résultats restent dans `%LOCALAPPDATA%\Moxxie\data`, séparément du programme. **Sauvegardes et restauration** crée une archive du profil et des documents originaux disponibles. Garder également une sauvegarde sur un autre support.
-
-## À savoir
-
-- Aucun livre personnel ni cours tiers n’est distribué.
-- Les identifiants ChatGPT sont protégés par Windows dans un dossier séparé ; ne jamais partager ce dossier.
-- La mémoire documentaire ne constitue pas un entraînement du modèle ni une certification d’expertise.
-- L’installateur n’est pas signé ; Windows peut afficher un avertissement de réputation.
-- Télécharger uniquement depuis les Releases de ce dépôt. Chaque installateur est accompagné de SHA256SUMS.txt.
-
-Ce dépôt contient les téléchargements publics et leur documentation. Le code de développement reste privé.
-
-## Serveur local avancé
-
-Choisir **Serveur local avancé** dans le chat, ou ouvrir **Réglages → Connexions → Options avancées**. Renseigner l’adresse locale (par exemple `http://127.0.0.1:8000/v1`), tester la liste des modèles puis sélectionner le modèle réellement chargé et enregistrer. Les noms proposés sont des exemples, pas des modèles inclus dans l’installateur.
-
-Le serveur doit exécuter les poids sur votre propre matériel. Le chat utilise uniquement une adresse de boucle locale, sans basculement automatique vers une API en ligne. Désactiver Wikipédia pour ne pas lancer de recherches en ligne facultatives. École et l’élève d’Université conservent leur moteur Ollama existant.
+Aucun profil ni livre personnel n’est publié. Le code de développement reste dans un dépôt privé. L’installateur n’est pas signé ; Windows peut afficher un avertissement de réputation.
