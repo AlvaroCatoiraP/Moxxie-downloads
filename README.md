@@ -1,12 +1,16 @@
 # superMoxxie — Téléchargements Windows
 
-Version **0.7.0** : assistant personnel avec quatre espaces, **Chat**, **Bibliothèque**, **École** et **Université**, et compagnon animé.
+Version **0.7.1** : assistant personnel avec quatre espaces, **Chat**, **Bibliothèque**, **École** et **Université**, et compagnon animé.
 
 **[Télécharger pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)** · **[Manuel HTML complet](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Documentation.html)**
 
 Windows 10/11 64 bits ; Python inclus. Installer ou mettre à jour au même emplacement conserve le profil, les souvenirs et les livres dans `%LOCALAPPDATA%\Moxxie\data`. Une sauvegarde externe reste recommandée.
 
-## Nouveautés
+## Correctif 0.7.1
+
+Université et École initialisent correctement leurs livres à la première ouverture, y compris avec une bibliothèque vide.
+
+## Nouveautés de 0.7.0
 
 - Ajout manuel de souvenirs, dont un souvenir par ligne, avec contrôle des doublons.
 - Discussions séparées, historique consultable, brouillons automatiques et saisie pendant une réponse.
