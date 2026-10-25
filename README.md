@@ -1,44 +1,30 @@
-# superMoxxie — Téléchargements Windows
+# superMoxxie — Assistants personnalisables pour Windows
 
-Version **0.7.1** : assistant personnel avec quatre espaces, **Chat**, **Bibliothèque**, **École** et **Université**, et compagnon animé.
+Version **0.8.0** : crée ton assistant, sa personnalité, son compagnon et son thème, dans un profil indépendant.
 
-**[Télécharger pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)** · **[Manuel HTML complet](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Documentation.html)**
+**[Télécharger Moxxie pour Windows](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Setup.exe)** · **[Manuel HTML complet](https://github.com/AlvaroCatoiraP/Moxxie-downloads/releases/latest/download/Moxxie-Documentation.html)**
 
-Windows 10/11 64 bits ; Python inclus. Installer ou mettre à jour au même emplacement conserve le profil, les souvenirs et les livres dans `%LOCALAPPDATA%\Moxxie\data`. Une sauvegarde externe reste recommandée.
+superMoxxie 0.8.0 — Tes assistants, tes profils et tes couleurs
 
-## Correctif 0.7.1
+- Création, sélection, renommage, duplication, export et import de profils indépendants.
+- Ton Moxxie existant devient le premier profil ; ses données restent à leur emplacement.
+- Éditeur d’identité, personnalité, langue, instructions et modèle Ollama préféré.
+- Personnalité personnalisée conservée dans les données utilisateur, protégée lors des mises à jour.
+- Compagnon personnel en PNG ou GIF animé, aperçu et contrôle des fichiers.
+- Thèmes Lavande, Océan, Forêt et Papier ; modes clair, sombre ou système ; couleurs personnalisables et contraste vérifié.
+- Retrait de profils avec archive réimportable, sans suppression définitive des fichiers.
+- Connexions d’authentification séparées et exclues des exports de profils.
+- Réglages défilants, barres d’actions adaptatives, sélection lisible et menu latéral adapté au texte agrandi.
+- Manuel HTML autonome enrichi : 28 chapitres.
 
-Université et École initialisent correctement leurs livres à la première ouverture, y compris avec une bibliothèque vide.
+Validation : 285 tests réussis et 132 contrôles de fenêtres à 100 %, 125 % et 160 %. La relecture visuelle native n’a pas pu être terminée (autorisation de l’outil expirée). Les appels externes restent simulés ; tous les écrans et lecteurs d’écran ne sont pas certifiés.
 
-## Nouveautés de 0.7.0
+Le changement de profil demande une réouverture et attend la fin des opérations. Une image personnelle n’acquiert pas automatiquement les gestes articulés du compagnon fourni. Les profils n’ont pas de mot de passe et restent accessibles à la session Windows. La bibliothèque est indépendante par profil.
 
-- Ajout manuel de souvenirs, dont un souvenir par ligne, avec contrôle des doublons.
-- Discussions séparées, historique consultable, brouillons automatiques et saisie pendant une réponse.
-- Modification de la dernière question et relance dans une nouvelle discussion.
-- Sources cliquables et conservation des références avec la discussion.
-- Recherche globale dans les discussions, souvenirs, livres et leçons.
-- Import multiple de documents, dépôt de fichiers Windows et bilan par fichier.
-- Fiches et quiz locaux depuis les livres, révisions espacées selon les erreurs.
-- Corrections proposées, puis réutilisées seulement après validation explicite.
-- Export des discussions en PDF et texte.
-- Panneaux chargés à la demande, taille du texte et contraste réglables, raccourcis clavier.
-- Sauvegardes programmables pendant l’ouverture ; menu du compagnon enrichi.
-- Dictée et lecture Windows, ou service vocal en ligne choisi explicitement avec clé API distincte.
-- Proposition automatique des nouvelles versions, installation choisie ou rappel le lendemain.
-- Manuel HTML autonome : 27 chapitres, plus de 11 000 mots, recherche, thème et impression.
+Windows 10/11 64 bits. Aucune donnée personnelle, aucun livre et aucun identifiant ne sont distribués. L’installateur et le manuel sont accompagnés de SHA256SUMS.txt.
 
-Windows 10/11 64 bits. Les livres et le profil restent séparés du programme. Une sauvegarde précède la migration du profil. Quitter les autres instances avant installation.
+## Démarrer
 
-Validation : 261 tests automatisés réussis et contrôle de l’interface sur un profil temporaire. Les appels vocaux distants sont simulés : le fonctionnement réel dépend des composants Windows, du microphone et du compte API. Aucun livre personnel ni identifiant n’est distribué.
+Installe ou mets à jour Moxxie, puis ouvre **Mes assistants · Profils** dans le menu latéral. Continue avec ton Moxxie existant ou crée un nouvel assistant. Le chat peut utiliser Ollama, un serveur compatible ou un compte ChatGPT autorisé ; ces services restent soumis à leurs droits et disponibilités. Les services API facultatifs peuvent être payants et exigent leur propre configuration.
 
-Télécharger Moxxie-Setup.exe pour installer ou mettre à jour, et Moxxie-Documentation.html pour consulter le manuel sans installation. SHA256SUMS.txt contient les empreintes des deux fichiers.
-
-## Utiliser Moxxie
-
-Le chat peut utiliser Ollama ou un serveur local compatible. Les connexions à des services externes dépendent de leurs droits et comptes. Les fonctions de voix en ligne et le correcteur d’Université nécessitent une clé API distincte et peuvent être facturés par le service ; aucun appel vocal n’est envoyé sans choix explicite.
-
-Dans la version 0.7.0, les nouvelles versions sont proposées automatiquement. Choisir **Installer maintenant** ou reporter de 24 heures. Les versions précédentes peuvent ouvrir **Réglages → Application → Vérifier les mises à jour**, ou télécharger l’installateur ci-dessus. La mise à jour vérifie l’empreinte SHA-256, sauvegarde, installe puis relance. Un retour automatique après panne d’installation n’est pas encore disponible.
-
-Le manuel HTML fonctionne hors ligne, avec recherche et impression. Il est aussi accessible dans **Outils → Documentation détaillée** et par **F1**.
-
-Aucun profil ni livre personnel n’est publié. Le code de développement reste dans un dépôt privé. L’installateur n’est pas signé ; Windows peut afficher un avertissement de réputation.
+Les mises à jour sont proposées automatiquement. Les données sont séparées du programme ; les versions publiées précédemment restent disponibles. Les sources restent privées. L’installateur n’est pas signé.
